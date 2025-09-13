@@ -1,0 +1,164 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "cn.ksmcbrigade",
+    "module": "cser-fabric-1.21",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "cser-fabric-1.21-1.0.jar",
+          "url": "cser-fabric-1.21-1.0.jar",
+          "size": 16684,
+          "sha512": "4e137a98f64e8fb5abf13e67b244d3e3e4eb6068769b9cc560ba3a544ff58d520e09f58be7c45132bda1f2edc3284b9eab61c0f63fac3d91ba7ed68af5ec0fda",
+          "sha256": "576096bfe6e3a5e00fc46f2f7ae95e39dd44f8e7c71dc2c5230a839c7a7935dc",
+          "sha1": "4e1794bdba1e287f594354258fcdbee6e8a9c1f8",
+          "md5": "524ced851e08afa0b5c5f8c9cbe15da3"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "cn.ksmcbrigade",
+          "name": "cser-fabric-1.21",
+          "version": "1.0"
+        },
+        {
+          "group": "cn.ksmcbrigade",
+          "name": "cser",
+          "version": "1.0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.15.11"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.100.1+1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cser-fabric-1.21-1.0.jar",
+          "url": "cser-fabric-1.21-1.0.jar",
+          "size": 16684,
+          "sha512": "4e137a98f64e8fb5abf13e67b244d3e3e4eb6068769b9cc560ba3a544ff58d520e09f58be7c45132bda1f2edc3284b9eab61c0f63fac3d91ba7ed68af5ec0fda",
+          "sha256": "576096bfe6e3a5e00fc46f2f7ae95e39dd44f8e7c71dc2c5230a839c7a7935dc",
+          "sha1": "4e1794bdba1e287f594354258fcdbee6e8a9c1f8",
+          "md5": "524ced851e08afa0b5c5f8c9cbe15da3"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "cn.ksmcbrigade",
+          "name": "cser-fabric-1.21",
+          "version": "1.0"
+        },
+        {
+          "group": "cn.ksmcbrigade",
+          "name": "cser",
+          "version": "1.0"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "cser-fabric-1.21-1.0-sources.jar",
+          "url": "cser-fabric-1.21-1.0-sources.jar",
+          "size": 13842,
+          "sha512": "8b3ac4fd464df61d103432cfc38fc468b9701d1eafd0e8d69d2747bd008849feb91f54dcdb7637a6a8f6b31bb6283805f8ff24fae5eea980aa5298fe449b1a6a",
+          "sha256": "4281926df8b9bfeedd1b6e949213711f3def75942e7356dc5e6483ba4f37db61",
+          "sha1": "29934e5e3124e0b1c16df9425d65b988c59567d9",
+          "md5": "99cf8d2ea6e4e9dfc372e51ea2f8e73d"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "cn.ksmcbrigade",
+          "name": "cser-fabric-1.21",
+          "version": "1.0"
+        },
+        {
+          "group": "cn.ksmcbrigade",
+          "name": "cser",
+          "version": "1.0"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "cser-fabric-1.21-1.0-javadoc.jar",
+          "url": "cser-fabric-1.21-1.0-javadoc.jar",
+          "size": 141973,
+          "sha512": "005df007d681339039096154d93d41e15fdfb64fa0fa9a0f6192cea250bf106a2ee2819670cc6eaba1b728f82a5f5deecec0b64482eec23e19224c7b62b666a0",
+          "sha256": "adf4b219e75f49036986d9c0adfb89f6d158e0cd9da86cec66a2451ac319cce2",
+          "sha1": "562408b93b530034e1908be2f8bb9ca2920f2b2c",
+          "md5": "5852565bb74db14ea997fe6ad6e79cc4"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "cn.ksmcbrigade",
+          "name": "cser-fabric-1.21",
+          "version": "1.0"
+        },
+        {
+          "group": "cn.ksmcbrigade",
+          "name": "cser",
+          "version": "1.0"
+        }
+      ]
+    }
+  ]
+}

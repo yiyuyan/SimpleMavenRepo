@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.sword.block",
+    "module": "sword_block-forge",
+    "version": "1.0.8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "sword_block-forge-1.0.8.jar",
+          "url": "sword_block-forge-1.0.8.jar",
+          "size": 37600,
+          "sha512": "a2840b3e30abf88224f11e5bdb70853312ca8aea37c4d53679a2e0a30642dfb132134cd028767159c1e1dfe907d85fcc124979b9886cf99b15cf58f4b2e1c033",
+          "sha256": "488f44185b80290bf4731e9760f075b45fe1ce800368fa1bd30fc1efadf9e7a3",
+          "sha1": "8b713bf07fecaf3f7097189efdd546d4d5e2cea2",
+          "md5": "0a1df4a8a6f61f1f46fd2b3c3d41408c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "sword_block-forge-1.0.8.jar",
+          "url": "sword_block-forge-1.0.8.jar",
+          "size": 37600,
+          "sha512": "a2840b3e30abf88224f11e5bdb70853312ca8aea37c4d53679a2e0a30642dfb132134cd028767159c1e1dfe907d85fcc124979b9886cf99b15cf58f4b2e1c033",
+          "sha256": "488f44185b80290bf4731e9760f075b45fe1ce800368fa1bd30fc1efadf9e7a3",
+          "sha1": "8b713bf07fecaf3f7097189efdd546d4d5e2cea2",
+          "md5": "0a1df4a8a6f61f1f46fd2b3c3d41408c"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "sword_block-forge-1.0.8-sources.jar",
+          "url": "sword_block-forge-1.0.8-sources.jar",
+          "size": 27282,
+          "sha512": "4c778fe70cee79462d129d5b597025f1bf1d631c82e2d88c40377757727edd8f9b48742df333da52c0598d2e701ae56de1287fbbbbe68d8f99e09665a9377e5b",
+          "sha256": "7007df25ca66f745c74f319be230f0b51c34c5f3341720de1dc32db042766890",
+          "sha1": "a49c6f7a536787257f8bfb2e5de557a9cf1e33bd",
+          "md5": "7aa7ff66946d92c4f61379ffeb43b575"
+        }
+      ]
+    }
+  ]
+}

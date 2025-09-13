@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>meteordevelopment</groupId>
+  <artifactId>meteor-ui</artifactId>
+  <versioning>
+    <lastUpdated>20250913015824</lastUpdated>
+    <snapshot>
+      <localCopy>true</localCopy>
+    </snapshot>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.21.8-SNAPSHOT</value>
+        <updated>20250913015824</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>1.21.8-SNAPSHOT</value>
+        <updated>20250913015824</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>1.21.8-SNAPSHOT</value>
+        <updated>20250913015824</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>all</classifier>
+        <extension>jar</extension>
+        <value>1.21.8-SNAPSHOT</value>
+        <updated>20250913015824</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+  <version>1.21.8-SNAPSHOT</version>
+</metadata>

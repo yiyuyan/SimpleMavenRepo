@@ -1,0 +1,263 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "meteordevelopment",
+    "module": "meteor-ui",
+    "version": "1.21.8-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "meteor-ui-1.21.8-SNAPSHOT.jar",
+          "url": "meteor-ui-1.21.8-SNAPSHOT.jar",
+          "size": 3267770,
+          "sha512": "8b162ecf55bfa276e04690f01a12439c810519b409990bdcb53e0b070a004b5625c8500f6a6820bcdffefe717e842caf115da8bf86db8432a812cbcb70282112",
+          "sha256": "e4d793ceac6da9cc30f8f6be8c43cbaeba793daa5e56348320d338f07a8c0513",
+          "sha1": "7906d9a16627ac7534d7081a2f77418021b04e71",
+          "md5": "845907ca9267b5f7bd95f74fa657514c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "meteordevelopment",
+          "module": "orbit",
+          "version": {
+            "requires": "0.2.4"
+          }
+        },
+        {
+          "group": "org.meteordev",
+          "module": "starscript",
+          "version": {
+            "requires": "0.2.4"
+          }
+        },
+        {
+          "group": "meteordevelopment",
+          "module": "discord-ipc",
+          "version": {
+            "requires": "1.1"
+          }
+        },
+        {
+          "group": "org.reflections",
+          "module": "reflections",
+          "version": {
+            "requires": "0.10.2"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-handler-proxy",
+          "version": {
+            "requires": "4.1.118.Final"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-codec-socks",
+          "version": {
+            "requires": "4.1.118.Final"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "de.florianmichael",
+          "module": "WaybackAuthLib",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.14"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-lifecycle-events-v1",
+          "version": {
+            "requires": "2.6.2+db4dfd859c"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-screen-api-v1",
+          "version": {
+            "requires": "2.0.50+908cbc919c"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-key-binding-api-v1",
+          "version": {
+            "requires": "1.0.64+9ec45cd89c"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "modmenu-308702",
+          "version": {
+            "requires": "6946098"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api-base",
+          "version": {
+            "requires": "0.4.64+9ec45cd8f3"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-resource-loader-v0",
+          "version": {
+            "requires": "3.1.11+946bf4c3f3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "meteor-ui-1.21.8-SNAPSHOT.jar",
+          "url": "meteor-ui-1.21.8-SNAPSHOT.jar",
+          "size": 3267770,
+          "sha512": "8b162ecf55bfa276e04690f01a12439c810519b409990bdcb53e0b070a004b5625c8500f6a6820bcdffefe717e842caf115da8bf86db8432a812cbcb70282112",
+          "sha256": "e4d793ceac6da9cc30f8f6be8c43cbaeba793daa5e56348320d338f07a8c0513",
+          "sha1": "7906d9a16627ac7534d7081a2f77418021b04e71",
+          "md5": "845907ca9267b5f7bd95f74fa657514c"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "meteordevelopment",
+          "module": "launch",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "meteordevelopment",
+          "module": "orbit",
+          "version": {
+            "requires": "0.2.4"
+          }
+        },
+        {
+          "group": "org.meteordev",
+          "module": "starscript",
+          "version": {
+            "requires": "0.2.4"
+          }
+        },
+        {
+          "group": "meteordevelopment",
+          "module": "discord-ipc",
+          "version": {
+            "requires": "1.1"
+          }
+        },
+        {
+          "group": "org.reflections",
+          "module": "reflections",
+          "version": {
+            "requires": "0.10.2"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-handler-proxy",
+          "version": {
+            "requires": "4.1.118.Final"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-codec-socks",
+          "version": {
+            "requires": "4.1.118.Final"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "de.florianmichael",
+          "module": "WaybackAuthLib",
+          "version": {
+            "requires": "1.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "meteor-ui-1.21.8-SNAPSHOT-all.jar",
+          "url": "meteor-ui-1.21.8-SNAPSHOT-all.jar",
+          "size": 3072275,
+          "sha512": "0aacafc81d899609244dd4f86783f9fe9e6aafbfb119c7f19ed2b6200e49aef670f347aaa7228efdc89c8e75078b4bb1014a0ca47cea66166aae054f26d41201",
+          "sha256": "52d2cd0e8f79d1a6c915a12408ac249b908bcb2c475b35d145cae25e7b2d6671",
+          "sha1": "c7459d924bc77ff8aab00460ccbcf41e115bbf10",
+          "md5": "f02de377b2673f5bccfcc37471b37e97"
+        }
+      ]
+    }
+  ]
+}

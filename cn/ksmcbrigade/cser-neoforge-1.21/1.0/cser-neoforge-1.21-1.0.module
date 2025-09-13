@@ -1,0 +1,148 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "cn.ksmcbrigade",
+    "module": "cser-neoforge-1.21",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "cser-neoforge-1.21-1.0.jar",
+          "url": "cser-neoforge-1.21-1.0.jar",
+          "size": 16132,
+          "sha512": "fa9456f5d1788876b1286e644c310954a5f97bc9ec4f2f42f9ddbc52ee05ab49d9fcd54e32759782fa24e1ea236296f725def799d9eeed4e340211d0f0bbabf1",
+          "sha256": "45459bec402f1ff8f590ebbc2011b62e242bb0624f4e9091ce87e1f2ca82f55e",
+          "sha1": "247a85218bf8afda6370e6ceb09e708a602c6ee9",
+          "md5": "3a7d2024a3dfe58c3da918c34b9293f9"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "cn.ksmcbrigade",
+          "name": "cser",
+          "version": "1.0"
+        },
+        {
+          "group": "cn.ksmcbrigade",
+          "name": "cser-neoforge-1.21",
+          "version": "1.0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "cser-neoforge-1.21-1.0.jar",
+          "url": "cser-neoforge-1.21-1.0.jar",
+          "size": 16132,
+          "sha512": "fa9456f5d1788876b1286e644c310954a5f97bc9ec4f2f42f9ddbc52ee05ab49d9fcd54e32759782fa24e1ea236296f725def799d9eeed4e340211d0f0bbabf1",
+          "sha256": "45459bec402f1ff8f590ebbc2011b62e242bb0624f4e9091ce87e1f2ca82f55e",
+          "sha1": "247a85218bf8afda6370e6ceb09e708a602c6ee9",
+          "md5": "3a7d2024a3dfe58c3da918c34b9293f9"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "cn.ksmcbrigade",
+          "name": "cser",
+          "version": "1.0"
+        },
+        {
+          "group": "cn.ksmcbrigade",
+          "name": "cser-neoforge-1.21",
+          "version": "1.0"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "cser-neoforge-1.21-1.0-sources.jar",
+          "url": "cser-neoforge-1.21-1.0-sources.jar",
+          "size": 11878,
+          "sha512": "b12a65b15c815ec071ddd1e7b0e7a518ce34dc8ca871cfb42522b0fed6ab27896de3c2d6e0bad8803fde46b183b6d5d2ebe51f127ef166557bd7c2546e2adcd3",
+          "sha256": "d7d9a18f968f5e404b4855b391c803b38a3f9f57491aac1f8d7cbf66792547de",
+          "sha1": "0f78812e8c3469b293dc4ec0179e6fa094ddc3ff",
+          "md5": "194f5661a5a626c6e9e9a37a1f74fcd5"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "cn.ksmcbrigade",
+          "name": "cser",
+          "version": "1.0"
+        },
+        {
+          "group": "cn.ksmcbrigade",
+          "name": "cser-neoforge-1.21",
+          "version": "1.0"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "cser-neoforge-1.21-1.0-javadoc.jar",
+          "url": "cser-neoforge-1.21-1.0-javadoc.jar",
+          "size": 141853,
+          "sha512": "ef65fcf452ad549c7f9b624959ee585186c9ff971a070566232c489d9ad2668c14c2cd07f2be996979c0ce333d158a3826807c6674cfa056531c063c3909552f",
+          "sha256": "5f5c97c80e5aac52b7943fa95934996a84420a005d6a96082d71cf298b796355",
+          "sha1": "031df4c7dd7766e5b738ef5c94a589e949b5ab41",
+          "md5": "588d3342377b93dc552004106f5bac5b"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "cn.ksmcbrigade",
+          "name": "cser",
+          "version": "1.0"
+        },
+        {
+          "group": "cn.ksmcbrigade",
+          "name": "cser-neoforge-1.21",
+          "version": "1.0"
+        }
+      ]
+    }
+  ]
+}

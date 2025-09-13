@@ -1,0 +1,69 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "cn.ksmcbrigade",
+    "module": "npop",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "npop-1.0.jar",
+          "url": "npop-1.0.jar",
+          "size": 8505,
+          "sha512": "71c05ec3eb3ee6a816de9275fb6d149ebfba894ecf1921bdc81b9b44f0ebd9d3db60614ba9cf87af0d20c7d28a712106228b4db4e10d222f3c2c0b740a430a62",
+          "sha256": "f9a37565a096cf88f36549098c9a4dfddfa71e13f20c59ce1218bbe82f80aacb",
+          "sha1": "092e46f55011ac86b4bda46eaa589f829cc43064",
+          "md5": "6aca218614f963a739664b8803af3223"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.minecraftforge",
+          "module": "forge",
+          "version": {
+            "requires": "1.20.1-47.4.6_mapped_official_1.20.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "npop-1.0.jar",
+          "url": "npop-1.0.jar",
+          "size": 8505,
+          "sha512": "71c05ec3eb3ee6a816de9275fb6d149ebfba894ecf1921bdc81b9b44f0ebd9d3db60614ba9cf87af0d20c7d28a712106228b4db4e10d222f3c2c0b740a430a62",
+          "sha256": "f9a37565a096cf88f36549098c9a4dfddfa71e13f20c59ce1218bbe82f80aacb",
+          "sha1": "092e46f55011ac86b4bda46eaa589f829cc43064",
+          "md5": "6aca218614f963a739664b8803af3223"
+        }
+      ]
+    }
+  ]
+}

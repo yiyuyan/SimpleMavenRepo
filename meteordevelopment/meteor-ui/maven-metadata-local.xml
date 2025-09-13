@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>meteordevelopment</groupId>
+  <artifactId>meteor-ui</artifactId>
+  <versioning>
+    <latest>1.21.8-SNAPSHOT</latest>
+    <versions>
+      <version>1.21.8-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20250913015824</lastUpdated>
+  </versioning>
+</metadata>

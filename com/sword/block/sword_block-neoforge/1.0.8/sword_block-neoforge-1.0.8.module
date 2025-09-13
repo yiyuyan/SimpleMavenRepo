@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.sword.block",
+    "module": "sword_block-neoforge",
+    "version": "1.0.8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "sword_block-neoforge-1.0.8.jar",
+          "url": "sword_block-neoforge-1.0.8.jar",
+          "size": 35814,
+          "sha512": "fba0dee298d0631a1b7b76bf203813306fc8ffa4a5b8fa38a217f26ce0fc41655ccc094bf2de12872acf6ba2fe242b8a0abcfa0a72862a3d99444674d58d7149",
+          "sha256": "131d9443ed695024c31423245eeea4b06eeb98c0902498b63376a1db680b6460",
+          "sha1": "b6819ce31c8b820afe20243b7752a2d042b25128",
+          "md5": "b7e1749a8b8563fd4850bba03a52bf48"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "sword_block-neoforge-1.0.8.jar",
+          "url": "sword_block-neoforge-1.0.8.jar",
+          "size": 35814,
+          "sha512": "fba0dee298d0631a1b7b76bf203813306fc8ffa4a5b8fa38a217f26ce0fc41655ccc094bf2de12872acf6ba2fe242b8a0abcfa0a72862a3d99444674d58d7149",
+          "sha256": "131d9443ed695024c31423245eeea4b06eeb98c0902498b63376a1db680b6460",
+          "sha1": "b6819ce31c8b820afe20243b7752a2d042b25128",
+          "md5": "b7e1749a8b8563fd4850bba03a52bf48"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "sword_block-neoforge-1.0.8-sources.jar",
+          "url": "sword_block-neoforge-1.0.8-sources.jar",
+          "size": 26738,
+          "sha512": "aa755f21a49acda8818bb851eb0d0e470346aad80014a7110e379dc64b4be85c194af571ee7efa6199b71866a3a5cafc40155e87684396e0bf5abc314661a774",
+          "sha256": "9380ba8b4b393775f794dc233fa2453731a9e566dfa1b168a56760d7b9a2135b",
+          "sha1": "be836f281dabd885e775b17719a6450132e305df",
+          "md5": "edf75f2d589995a7bed15420f2e55718"
+        }
+      ]
+    }
+  ]
+}

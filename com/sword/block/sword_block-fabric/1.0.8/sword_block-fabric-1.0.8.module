@@ -1,0 +1,105 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.sword.block",
+    "module": "sword_block-fabric",
+    "version": "1.0.8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.125.3+1.21.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sword_block-fabric-1.0.8.jar",
+          "url": "sword_block-fabric-1.0.8.jar",
+          "size": 33921,
+          "sha512": "2fdbd60be217520cb3a149205bbc514310b4a9edb4a686add18f6c8af5a35ece96255f5bf3529026e4a2409708ee9b98aa8b687b783b5449c36ab930c58e71a2",
+          "sha256": "c1f2e305305f9fa1358f33374cbd04d8894f02705e3d8191a925b987ef85b04d",
+          "sha1": "d0b2b89b8e511da16c4d83f21af37e02d7e8e816",
+          "md5": "8e775d32890a2e63e6283c8e84978ee3"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.125.3+1.21.5"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.14"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sword_block-fabric-1.0.8.jar",
+          "url": "sword_block-fabric-1.0.8.jar",
+          "size": 33921,
+          "sha512": "2fdbd60be217520cb3a149205bbc514310b4a9edb4a686add18f6c8af5a35ece96255f5bf3529026e4a2409708ee9b98aa8b687b783b5449c36ab930c58e71a2",
+          "sha256": "c1f2e305305f9fa1358f33374cbd04d8894f02705e3d8191a925b987ef85b04d",
+          "sha1": "d0b2b89b8e511da16c4d83f21af37e02d7e8e816",
+          "md5": "8e775d32890a2e63e6283c8e84978ee3"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "sword_block-fabric-1.0.8-sources.jar",
+          "url": "sword_block-fabric-1.0.8-sources.jar",
+          "size": 26248,
+          "sha512": "b4828876007164910d408eff2c6497bdd77fe30cf8b2a13111f83460ee76d06ad2cba53c14e61c9e9d1738280130c2b439c6837fff94e6758b82fb6e6ed15eb4",
+          "sha256": "23941abede051722eaf83ec5944df2c3f064f56d2af376ed1cb5f10bad728a0b",
+          "sha1": "8088ddd5a8a31b9687c893f8372358fb151ee583",
+          "md5": "989a2d736a06e3d0f64614365fed2b23"
+        }
+      ]
+    }
+  ]
+}

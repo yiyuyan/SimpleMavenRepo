@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "cn.ksmcbrigade",
+    "module": "scb",
+    "version": "1.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "scb-1.4.jar",
+          "url": "scb-1.4.jar",
+          "size": 304926,
+          "sha512": "1f14b30e4131d290a03f3a7cbe5378d83c1e7ff972e1bff58da71a9003bd532491958bb7002545dd31e1c365c41a4c9fa2a6f471c5092fa45abf8a86a14a5ed8",
+          "sha256": "55054f78da3e01ccbd00beb9e552561a8a64f9c7ef45d69c194c582238805c4f",
+          "sha1": "4ff697609cee408c83983e7dba775659264777bb",
+          "md5": "4127c82a92dc2e486fe59b5668fb06cb"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "scb-1.4.jar",
+          "url": "scb-1.4.jar",
+          "size": 304926,
+          "sha512": "1f14b30e4131d290a03f3a7cbe5378d83c1e7ff972e1bff58da71a9003bd532491958bb7002545dd31e1c365c41a4c9fa2a6f471c5092fa45abf8a86a14a5ed8",
+          "sha256": "55054f78da3e01ccbd00beb9e552561a8a64f9c7ef45d69c194c582238805c4f",
+          "sha1": "4ff697609cee408c83983e7dba775659264777bb",
+          "md5": "4127c82a92dc2e486fe59b5668fb06cb"
+        }
+      ]
+    }
+  ]
+}
