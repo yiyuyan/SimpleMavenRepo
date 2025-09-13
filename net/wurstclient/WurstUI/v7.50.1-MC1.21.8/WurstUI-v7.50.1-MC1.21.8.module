@@ -27,11 +27,11 @@
         {
           "name": "WurstUI-v7.50.1-MC1.21.8.jar",
           "url": "WurstUI-v7.50.1-MC1.21.8.jar",
-          "size": 778245,
-          "sha512": "9b1ba95f092ebc84876fcc05e48dc02edd39d3620602dcb2516bd647ff8632241980e04c169ff514e5a770894e79e0335205e069c33c7d4268c91e613c4a19c8",
-          "sha256": "b8ca97889b4027c40a5946609b91af3ddce11116eef1a18f409eca535f951df2",
-          "sha1": "da6e8fca5aacdc980d621e5ab2159b06efc930b3",
-          "md5": "10ffc59fabde4135ba4d3a2b9a8746a7"
+          "size": 778247,
+          "sha512": "6e2744232a4fd78a4c95f5b62fd02779904e4941a59aadc6da23cb359ef7c99fc2c27a34d27072ab61620c65c2b8dabaf6462fbaa28e81d17804f83f50bbe5c9",
+          "sha256": "8944531a86d00598ade874df71abda9a88171f23a2a0f84365e99ace57682b56",
+          "sha1": "c17e535c987dc9a1ee057956b0480df3ff373088",
+          "md5": "09f5598942fdb833ad4d7e3443763cb4"
         }
       ]
     },
@@ -71,11 +71,11 @@
         {
           "name": "WurstUI-v7.50.1-MC1.21.8.jar",
           "url": "WurstUI-v7.50.1-MC1.21.8.jar",
-          "size": 778245,
-          "sha512": "9b1ba95f092ebc84876fcc05e48dc02edd39d3620602dcb2516bd647ff8632241980e04c169ff514e5a770894e79e0335205e069c33c7d4268c91e613c4a19c8",
-          "sha256": "b8ca97889b4027c40a5946609b91af3ddce11116eef1a18f409eca535f951df2",
-          "sha1": "da6e8fca5aacdc980d621e5ab2159b06efc930b3",
-          "md5": "10ffc59fabde4135ba4d3a2b9a8746a7"
+          "size": 778247,
+          "sha512": "6e2744232a4fd78a4c95f5b62fd02779904e4941a59aadc6da23cb359ef7c99fc2c27a34d27072ab61620c65c2b8dabaf6462fbaa28e81d17804f83f50bbe5c9",
+          "sha256": "8944531a86d00598ade874df71abda9a88171f23a2a0f84365e99ace57682b56",
+          "sha1": "c17e535c987dc9a1ee057956b0480df3ff373088",
+          "md5": "09f5598942fdb833ad4d7e3443763cb4"
         }
       ]
     },
@@ -92,10 +92,10 @@
           "name": "WurstUI-v7.50.1-MC1.21.8-sources.jar",
           "url": "WurstUI-v7.50.1-MC1.21.8-sources.jar",
           "size": 542128,
-          "sha512": "b350cf2c999b05a5741b4413f992694aad29be26f04caa70291d661e8e29dd3f6761b82f529589b347af5964cd385c8edfbf5b8d30d652ff652dfb342ec38e25",
-          "sha256": "41637696f9ad737db66afba02ac0f448858ce90a3f0e758fa4d72df50662aad2",
-          "sha1": "0257bc687c51d80e9d7fcf465ba41cc8bde5247d",
-          "md5": "ebe590eaac27e36e83da4493de9147ae"
+          "sha512": "01c1993190840551a31c803fc29b0a2275f52f695fe26b8ac005b1a3f9a0880666e5fe8bec314d7da0f0883a7d7c711b7a45d61252cddc9281238849488b8bcc",
+          "sha256": "0f73770e3fc374cf7e05fd6897c93d7c3038cdf5bbb45ce58b7a9a1ef771e082",
+          "sha1": "c78ada80284bfdf2c83fe27da95566c39f9b0016",
+          "md5": "5ae5166f576d09050236b93feecec0dd"
         }
       ]
     }
