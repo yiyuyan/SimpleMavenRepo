@@ -1,0 +1,103 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.wurstclient",
+    "module": "WurstUI",
+    "version": "v7.50.1-pf-MC1.21.8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "WurstUI-v7.50.1-pf-MC1.21.8.jar",
+          "url": "WurstUI-v7.50.1-pf-MC1.21.8.jar",
+          "size": 778258,
+          "sha512": "f1a0362689322004b4e3d68aa1b152499ac2ab053c880480a87a8cf90938e30e5613e9c125e95474790229737490fb964f06cd5501ad6d168341770b9a48e9bc",
+          "sha256": "73837522dc3d3d57ce42b116eca9f9e915bf7d727d0fbdef019bd791b1b5fb9a",
+          "sha1": "54fe23439b4a497d62801d5f2842a620e9623877",
+          "md5": "1e132835e81bf359a8e3e1d87e163ccc"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.17.2"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.133.4+1.21.8"
+          }
+        },
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "WurstUI-v7.50.1-pf-MC1.21.8.jar",
+          "url": "WurstUI-v7.50.1-pf-MC1.21.8.jar",
+          "size": 778258,
+          "sha512": "f1a0362689322004b4e3d68aa1b152499ac2ab053c880480a87a8cf90938e30e5613e9c125e95474790229737490fb964f06cd5501ad6d168341770b9a48e9bc",
+          "sha256": "73837522dc3d3d57ce42b116eca9f9e915bf7d727d0fbdef019bd791b1b5fb9a",
+          "sha1": "54fe23439b4a497d62801d5f2842a620e9623877",
+          "md5": "1e132835e81bf359a8e3e1d87e163ccc"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "WurstUI-v7.50.1-pf-MC1.21.8-sources.jar",
+          "url": "WurstUI-v7.50.1-pf-MC1.21.8-sources.jar",
+          "size": 540794,
+          "sha512": "534afd0b96a9f2cddef837f46f238bc7ddefcca2ee355fefa475f2bb37d8327d3c70a6f0e21f2bfc1910b99644aa3205dced185169d9119f1e25224ddbf27a5f",
+          "sha256": "e4991b428f863cc3c2fe01c9c0a2923ab8d5921fcdec4613608700fbdf58f42b",
+          "sha1": "c461817b72340e268db8337a0a4226d833312800",
+          "md5": "d9add6ec501d1810ad19a2a6b1281d08"
+        }
+      ]
+    }
+  ]
+}
