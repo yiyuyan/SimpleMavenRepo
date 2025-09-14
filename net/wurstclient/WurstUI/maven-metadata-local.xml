@@ -3,11 +3,12 @@
   <groupId>net.wurstclient</groupId>
   <artifactId>WurstUI</artifactId>
   <versioning>
-    <latest>v7.50.1-MC1.21.8</latest>
-    <release>v7.50.1-MC1.21.8</release>
+    <latest>v7.50.1-f-MC1.21.8</latest>
+    <release>v7.50.1-f-MC1.21.8</release>
     <versions>
       <version>v7.50.1-MC1.21.8</version>
+      <version>v7.50.1-f-MC1.21.8</version>
     </versions>
-    <lastUpdated>20250913102658</lastUpdated>
+    <lastUpdated>20250914004908</lastUpdated>
   </versioning>
 </metadata>
