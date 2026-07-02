@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "cn.ksmcbrigade.frapi",
+    "module": "vkn_ffapi",
+    "version": "0.114.0-mc1.21.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "vkn_ffapi-0.114.0-mc1.21.4.jar",
+          "url": "vkn_ffapi-0.114.0-mc1.21.4.jar",
+          "size": 3677447,
+          "sha512": "eb6993c3c983506eda4ebd4820199ae733527db1f96c17420b2f1663fb0bd5d3175f7fa17ebd5867fc7624f11402de52754266f2f4350115305fbfe92c3c557f",
+          "sha256": "a5cf400d09c07371e0cbccfb3440d62ae718bc8dcb2a22f9e1518f2f2c63dd70",
+          "sha1": "51e64b41a4b862f95e2b8043c05141b8ab348e58",
+          "md5": "180a53e135e239df25d7ace60fcf6cd0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.sinytra",
+          "module": "forgified-fabric-loader",
+          "version": {
+            "requires": "2.5.68+0.18.4+1.21.1"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "forgified-fabric-loader",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "full"
+            }
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "vkn_ffapi-0.114.0-mc1.21.4.jar",
+          "url": "vkn_ffapi-0.114.0-mc1.21.4.jar",
+          "size": 3677447,
+          "sha512": "eb6993c3c983506eda4ebd4820199ae733527db1f96c17420b2f1663fb0bd5d3175f7fa17ebd5867fc7624f11402de52754266f2f4350115305fbfe92c3c557f",
+          "sha256": "a5cf400d09c07371e0cbccfb3440d62ae718bc8dcb2a22f9e1518f2f2c63dd70",
+          "sha1": "51e64b41a4b862f95e2b8043c05141b8ab348e58",
+          "md5": "180a53e135e239df25d7ace60fcf6cd0"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "vkn_ffapi-0.114.0-mc1.21.4-sources.jar",
+          "url": "vkn_ffapi-0.114.0-mc1.21.4-sources.jar",
+          "size": 231042,
+          "sha512": "78e1704437370bab19d1ce6a693c4240828fe3ebe8376ba57f0aa9091dc13cad6dd5b8d7893ca03487547f213d4795c1df54cabc097d859474c190e2a7f12658",
+          "sha256": "3066acf44f828ad4559dc88fd82cf487fcffec5a2323e4c29e05c666beb5e281",
+          "sha1": "3fca28c0e063aa22ad7dab17e2090b6af037ee17",
+          "md5": "fc14c531033cb99c66c4d54d7c817254"
+        }
+      ]
+    }
+  ]
+}
