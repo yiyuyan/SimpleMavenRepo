@@ -3,12 +3,13 @@
   <groupId>io.github.yiyuyan</groupId>
   <artifactId>SuperAccessTransformerPlugin</artifactId>
   <versioning>
-    <latest>1.002</latest>
-    <release>1.002</release>
+    <latest>1.003</latest>
+    <release>1.003</release>
     <versions>
       <version>1.001</version>
       <version>1.002</version>
+      <version>1.003</version>
     </versions>
-    <lastUpdated>20260724120912</lastUpdated>
+    <lastUpdated>20260724121327</lastUpdated>
   </versioning>
 </metadata>
