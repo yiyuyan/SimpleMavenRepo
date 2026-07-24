@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>cn.ksmcbrigade.satp</groupId>
+  <artifactId>SuperAccessTransformerPlugin</artifactId>
+  <version>1.000</version>
+  <packaging>pom</packaging>
+  <name>SuperAccessTransformerPlugin</name>
+  <description>To access classes through the SuperAccessTransformer Mod.</description>
+  <url>https://github.com/yiyuyan/SuperAccessTransformer/tree/plugin</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://mit-license.org/</url>
+      <distribution>repo</distribution>
+      <comments>A business-friendly OSS license</comments>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>yiyuyan</id>
+      <name>commonplace</name>
+      <email>ksmcbrigade@gmail.com</email>
+      <roles>
+        <role>Java Developer</role>
+      </roles>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/yiyuyan/SuperAccessTransformer.git</connection>
+    <developerConnection>scm:git:git@github.com:yiyuyan/SuperAccessTransformer.git</developerConnection>
+    <url>https://github.com/yiyuyan/SuperAccessTransformer</url>
+  </scm>
+</project>

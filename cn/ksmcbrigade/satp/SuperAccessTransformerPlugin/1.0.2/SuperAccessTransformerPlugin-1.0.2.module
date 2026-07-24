@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "cn.ksmcbrigade.satp",
+    "module": "SuperAccessTransformerPlugin",
+    "version": "1.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "SuperAccessTransformerPlugin-1.0.2.jar",
+          "url": "SuperAccessTransformerPlugin-1.0.2.jar",
+          "size": 8565,
+          "sha512": "be1d2d927f727c124ed40ed75fbe519ac5e206fc2c503944ddb91a1d94989462c02b0c7cab09e0b5e89014fc6068cd2f323e454cc0439d3d6c42aa3b536ef612",
+          "sha256": "8b6ad7acfe90b81fb88821018e23e3181eb4e4ca3ea12988214a9b3b4002cfd6",
+          "sha1": "9e4190152d79aa884b1ed0b01946d06f7ad5f1b7",
+          "md5": "89640f8c5ed0b413ce41badf8e6364dd"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.6"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "SuperAccessTransformerPlugin-1.0.2.jar",
+          "url": "SuperAccessTransformerPlugin-1.0.2.jar",
+          "size": 8565,
+          "sha512": "be1d2d927f727c124ed40ed75fbe519ac5e206fc2c503944ddb91a1d94989462c02b0c7cab09e0b5e89014fc6068cd2f323e454cc0439d3d6c42aa3b536ef612",
+          "sha256": "8b6ad7acfe90b81fb88821018e23e3181eb4e4ca3ea12988214a9b3b4002cfd6",
+          "sha1": "9e4190152d79aa884b1ed0b01946d06f7ad5f1b7",
+          "md5": "89640f8c5ed0b413ce41badf8e6364dd"
+        }
+      ]
+    }
+  ]
+}

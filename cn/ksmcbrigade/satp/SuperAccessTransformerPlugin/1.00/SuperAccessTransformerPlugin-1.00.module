@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "cn.ksmcbrigade.satp",
+    "module": "SuperAccessTransformerPlugin",
+    "version": "1.00",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "SuperAccessTransformerPlugin-1.00.jar",
+          "url": "SuperAccessTransformerPlugin-1.00.jar",
+          "size": 9759,
+          "sha512": "791ce13225aa5dea5eb88450ce714e3f0a1fc9e4c020bcbb353443e79776243eab65f66a82e6f77ad27881248f73ea35e4c98441689ad112a6f439e701a78a98",
+          "sha256": "9acffb385fc343dde51e70fa35d530d5c20d7f001eec18d7ce73dd52d73bc4fb",
+          "sha1": "8fc9481af3686e40f81ff7f9435ccba6ebff7c16",
+          "md5": "470e188640db7d60e070c8adad767268"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.6"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "SuperAccessTransformerPlugin-1.00.jar",
+          "url": "SuperAccessTransformerPlugin-1.00.jar",
+          "size": 9759,
+          "sha512": "791ce13225aa5dea5eb88450ce714e3f0a1fc9e4c020bcbb353443e79776243eab65f66a82e6f77ad27881248f73ea35e4c98441689ad112a6f439e701a78a98",
+          "sha256": "9acffb385fc343dde51e70fa35d530d5c20d7f001eec18d7ce73dd52d73bc4fb",
+          "sha1": "8fc9481af3686e40f81ff7f9435ccba6ebff7c16",
+          "md5": "470e188640db7d60e070c8adad767268"
+        }
+      ]
+    }
+  ]
+}

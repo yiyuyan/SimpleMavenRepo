@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "cn.ksmcbrigade.satp",
+    "module": "SuperAccessTransformerPlugin",
+    "version": "1.000",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "SuperAccessTransformerPlugin-1.000.jar",
+          "url": "SuperAccessTransformerPlugin-1.000.jar",
+          "size": 9759,
+          "sha512": "95a77e2d8620b7a36aecb335e5e269a57eb7a3b0b1350e9633dc9ef3c21b2afc0abbb9ff3faf9f054a767f9f4c865acaa05d3b47d3de4459192d941072375ef4",
+          "sha256": "b29cbc5bfbc6495c78689284736f7ed9b60322dc4fecdf1fffacfe67e1314b16",
+          "sha1": "24481df57720ae2b4fc6e30de5456c4433b44445",
+          "md5": "752596eeacafc0623a2a5fbfb6d4707c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.6"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "SuperAccessTransformerPlugin-1.000.jar",
+          "url": "SuperAccessTransformerPlugin-1.000.jar",
+          "size": 9759,
+          "sha512": "95a77e2d8620b7a36aecb335e5e269a57eb7a3b0b1350e9633dc9ef3c21b2afc0abbb9ff3faf9f054a767f9f4c865acaa05d3b47d3de4459192d941072375ef4",
+          "sha256": "b29cbc5bfbc6495c78689284736f7ed9b60322dc4fecdf1fffacfe67e1314b16",
+          "sha1": "24481df57720ae2b4fc6e30de5456c4433b44445",
+          "md5": "752596eeacafc0623a2a5fbfb6d4707c"
+        }
+      ]
+    }
+  ]
+}
