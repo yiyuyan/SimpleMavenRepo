@@ -27,11 +27,11 @@
         {
           "name": "SuperAccessTransformerPlugin-1.002.jar",
           "url": "SuperAccessTransformerPlugin-1.002.jar",
-          "size": 9899,
-          "sha512": "f3477df303fa5ff2f7f42eb370aa5bb73d5946ccd133d81dfd5144ad95b94897d8dadddda8a0f9fce7abfea7942fca7fe44f31a451eb417af718d981b7264685",
-          "sha256": "16e91336ac5c577575caf0967ead7f10044181dbef4a6ddfd245c047767a09bc",
-          "sha1": "5c0399cbe1aa295704feed0462a4fb2530ee7552",
-          "md5": "455e61626272cfa5f6c27214ce6d31c4"
+          "size": 10184,
+          "sha512": "fc26af425d5fd2d20fe6b6d3c58fd58c28fbfb5f75e73568e4121b4d908260ceff63301d0542ddd91c14e439b08caf736f411a2de892c64c6f916ad1722b4a0d",
+          "sha256": "90d90c9798eb10f410ae6817a681f97676d382b47140ddf205ffa1ebbc61ea38",
+          "sha1": "90033164383e463425586b2ada9c637c81357933",
+          "md5": "1b06588d34c809d15d1e5459ca38ef13"
         }
       ]
     },
@@ -64,11 +64,11 @@
         {
           "name": "SuperAccessTransformerPlugin-1.002.jar",
           "url": "SuperAccessTransformerPlugin-1.002.jar",
-          "size": 9899,
-          "sha512": "f3477df303fa5ff2f7f42eb370aa5bb73d5946ccd133d81dfd5144ad95b94897d8dadddda8a0f9fce7abfea7942fca7fe44f31a451eb417af718d981b7264685",
-          "sha256": "16e91336ac5c577575caf0967ead7f10044181dbef4a6ddfd245c047767a09bc",
-          "sha1": "5c0399cbe1aa295704feed0462a4fb2530ee7552",
-          "md5": "455e61626272cfa5f6c27214ce6d31c4"
+          "size": 10184,
+          "sha512": "fc26af425d5fd2d20fe6b6d3c58fd58c28fbfb5f75e73568e4121b4d908260ceff63301d0542ddd91c14e439b08caf736f411a2de892c64c6f916ad1722b4a0d",
+          "sha256": "90d90c9798eb10f410ae6817a681f97676d382b47140ddf205ffa1ebbc61ea38",
+          "sha1": "90033164383e463425586b2ada9c637c81357933",
+          "md5": "1b06588d34c809d15d1e5459ca38ef13"
         }
       ]
     },
@@ -84,11 +84,11 @@
         {
           "name": "SuperAccessTransformerPlugin-1.002-sources.jar",
           "url": "SuperAccessTransformerPlugin-1.002-sources.jar",
-          "size": 3730,
-          "sha512": "4460f343e2e64d574dfc6d51baf6ecec9628d65e99da14f650adaf654a3e0ffb0f85c0e70b7f84987ca06e89cb62e7ca8818dd54edacb999d8e334b38ee98b38",
-          "sha256": "02e61f8b81a6f9899289828f823914c01a4667556db3cffb04c4a67ecf0b9c7f",
-          "sha1": "4870e215464781cad099b31678239840b35ebfc2",
-          "md5": "bb0180c01d6c6aaabe3a83cd0ccedc52"
+          "size": 3841,
+          "sha512": "6301164cd8aaef1ccafc5f0292adbd6e279435fdf760da3774613cf3344dd0943a1ad5a9a8a612cb9abeed20f6b237fa9464bc7ddae61bf7cba15ee9ff227bda",
+          "sha256": "453fbf799a79da5b17f0a2967d7992f5e201e6521eb9b499e54170381bbaa706",
+          "sha1": "df42c82fc16ac9ac79191f7a39820e71c77fa231",
+          "md5": "5a7864b4f6537551bff33ab28e41b431"
         }
       ]
     }
