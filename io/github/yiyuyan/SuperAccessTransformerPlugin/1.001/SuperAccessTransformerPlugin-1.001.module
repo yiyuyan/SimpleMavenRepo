@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.yiyuyan",
+    "module": "SuperAccessTransformerPlugin",
+    "version": "1.001",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "SuperAccessTransformerPlugin-1.001.jar",
+          "url": "SuperAccessTransformerPlugin-1.001.jar",
+          "size": 9838,
+          "sha512": "73945d2fee1b7bcf248798a4da4e6639689938b24d27a542a9cc863fc2bb0417d361ae1ec89ac2412d8541969d31048326b677f1693e617cb45d936fff352a22",
+          "sha256": "43ef169f34e35b15f048f73605f828f427a218795cfd2f2ac8139d876621f4e0",
+          "sha1": "5ff7c436db0160f486c337ac18adcc648dc4d21e",
+          "md5": "b8f266eb3476ce22a8811df540fedc14"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.6"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "SuperAccessTransformerPlugin-1.001.jar",
+          "url": "SuperAccessTransformerPlugin-1.001.jar",
+          "size": 9838,
+          "sha512": "73945d2fee1b7bcf248798a4da4e6639689938b24d27a542a9cc863fc2bb0417d361ae1ec89ac2412d8541969d31048326b677f1693e617cb45d936fff352a22",
+          "sha256": "43ef169f34e35b15f048f73605f828f427a218795cfd2f2ac8139d876621f4e0",
+          "sha1": "5ff7c436db0160f486c337ac18adcc648dc4d21e",
+          "md5": "b8f266eb3476ce22a8811df540fedc14"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "SuperAccessTransformerPlugin-1.001-sources.jar",
+          "url": "SuperAccessTransformerPlugin-1.001-sources.jar",
+          "size": 3691,
+          "sha512": "0382caa13d5c8a9f3cf6efcf096c2113d1b49bc9c14ff9a456cc9ea36ad369087cf0a5564fc2668fcb2e846a02c65202f23cb1b9e3a68117559257fc1edb7383",
+          "sha256": "671798815896b4f13cd35ea73dfa16e22b16d5ae4e886b36d848609795e0a580",
+          "sha1": "b0c921c2a3aefab7c774afb09f8d4e2258754c0a",
+          "md5": "bbae669e84a8bc8ec13fed62394cf6f2"
+        }
+      ]
+    }
+  ]
+}
