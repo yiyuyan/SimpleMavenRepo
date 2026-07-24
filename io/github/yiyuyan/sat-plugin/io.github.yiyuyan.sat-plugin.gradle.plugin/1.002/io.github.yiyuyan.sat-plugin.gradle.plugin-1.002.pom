@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.yiyuyan.sat-plugin</groupId>
+  <artifactId>io.github.yiyuyan.sat-plugin.gradle.plugin</artifactId>
+  <version>1.002</version>
+  <packaging>pom</packaging>
+  <name>SuperAccessTransformerPlugin</name>
+  <description>To access classes through the SuperAccessTransformer Mod.</description>
+  <url>https://github.com/yiyuyan/SuperAccessTransformer</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://mit-license.org/</url>
+      <distribution>https://mit-license.org/</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>yiyuyan</id>
+      <name>commonplace</name>
+      <email>179544143@qq.com</email>
+      <url>https://github.com/yiyuyan/</url>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/yiyuyan/SuperAccessTransformer.git</connection>
+    <developerConnection>scm:git:git@github.com:yiyuyan/SuperAccessTransformer.git</developerConnection>
+    <url>https://github.com/yiyuyan/SuperAccessTransformer</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>io.github.yiyuyan</groupId>
+      <artifactId>SuperAccessTransformerPlugin</artifactId>
+      <version>1.002</version>
+    </dependency>
+  </dependencies>
+</project>
