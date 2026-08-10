@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>committee.nova.mods</groupId>
+  <artifactId>lighteco-fabric</artifactId>
+  <version>1.20.1-1.2.0</version>
+  <name>lighteco</name>
+  <licenses>
+    <license>
+      <name>AGPL V3</name>
+      <url>https://www.gnu.org/licenses/agpl-3.0.html</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>mikhailtapio</id>
+      <name>MikhailTapio</name>
+    </developer>
+    <developer>
+      <id>cnlimiter</id>
+      <name>演变</name>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.code.findbugs</groupId>
+      <artifactId>jsr305</artifactId>
+      <version>3.0.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>net.fabricmc</groupId>
+      <artifactId>fabric-loader</artifactId>
+      <version>0.15.7</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>net.fabricmc.fabric-api</groupId>
+      <artifactId>fabric-api</artifactId>
+      <version>0.92.1+1.20.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>dev.onyxstudios.cardinal-components-api</groupId>
+      <artifactId>cardinal-components-base</artifactId>
+      <version>5.2.2</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>dev.onyxstudios.cardinal-components-api</groupId>
+      <artifactId>cardinal-components-entity</artifactId>
+      <version>5.2.2</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>
