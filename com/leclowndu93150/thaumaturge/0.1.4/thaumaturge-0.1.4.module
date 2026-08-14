@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.leclowndu93150",
+    "module": "thaumaturge",
+    "version": "0.1.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "thaumaturge-0.1.4.jar",
+          "url": "thaumaturge-0.1.4.jar",
+          "size": 17650685,
+          "sha512": "30cf0d0c635156099ba0b21052f11c133ba6ec053154de4cdd2de0d617cd70e187dff5c1170ad70efc92d643c5366404ba42b416617191bb4f4f8b45c03fc355",
+          "sha256": "c87702d1e244fbe63e4e42c42f525ee8b65077d0db2b75e9a8bc80c746bcc443",
+          "sha1": "fb776692abdfc3d71558c187da929af470b28697",
+          "md5": "b773ab66c21715580d370169d437affb"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "curse.maven",
+          "module": "terrablender-neoforge-940057",
+          "version": {
+            "requires": "8046313"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-26.1.2-neoforge",
+          "version": {
+            "requires": "29.6.2.31"
+          }
+        },
+        {
+          "group": "top.theillusivec4.curios",
+          "module": "curios-neoforge",
+          "version": {
+            "requires": "15.0.0-beta.2+26.1.2"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jade",
+          "version": {
+            "requires": "26.1.8+neoforge"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "thaumaturge-0.1.4.jar",
+          "url": "thaumaturge-0.1.4.jar",
+          "size": 17650685,
+          "sha512": "30cf0d0c635156099ba0b21052f11c133ba6ec053154de4cdd2de0d617cd70e187dff5c1170ad70efc92d643c5366404ba42b416617191bb4f4f8b45c03fc355",
+          "sha256": "c87702d1e244fbe63e4e42c42f525ee8b65077d0db2b75e9a8bc80c746bcc443",
+          "sha1": "fb776692abdfc3d71558c187da929af470b28697",
+          "md5": "b773ab66c21715580d370169d437affb"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "thaumaturge-0.1.4-sources.jar",
+          "url": "thaumaturge-0.1.4-sources.jar",
+          "size": 15385059,
+          "sha512": "90fd846e8db8f0497dab90d0a2b8f619ade5cbcde60159591ee3c7f4fb1e5a8dfe8406f3e6a723376cd96bb4239617e93cf844b908f42d2d96cabdfa1e75d80b",
+          "sha256": "955184956b5f241ef5ee78d6c4726ebad095a29157a5f4faad74fae59dede404",
+          "sha1": "0dd05f10cae1876ee531f6f9a90b1c9b19913cbd",
+          "md5": "e9c99f9950893a6773d8225b94a50ff1"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "thaumaturge-0.1.4-javadoc.jar",
+          "url": "thaumaturge-0.1.4-javadoc.jar",
+          "size": 12215794,
+          "sha512": "2a88d95eff4ce1c951690034659319a8bb37868cb072da145b94e7479ee15a6c58dcf368c1846ea6cf83715ad8a3f928b07cf426f1c8fd281aacdfd23eee9fec",
+          "sha256": "3ba8390db675407056aa70dc7aeba009ffb5ccc750d19227e80477355de0b81c",
+          "sha1": "816566868c446344b652b8bd701f4fec80e2f7b7",
+          "md5": "879a19a1d8e676efe98ed9f572bf30e9"
+        }
+      ]
+    }
+  ]
+}

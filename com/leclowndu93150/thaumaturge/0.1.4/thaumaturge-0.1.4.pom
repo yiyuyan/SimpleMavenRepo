@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.leclowndu93150</groupId>
+  <artifactId>thaumaturge</artifactId>
+  <version>0.1.4</version>
+  <dependencies>
+    <dependency>
+      <groupId>curse.maven</groupId>
+      <artifactId>terrablender-neoforge-940057</artifactId>
+      <version>8046313</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>mezz.jei</groupId>
+      <artifactId>jei-26.1.2-neoforge</artifactId>
+      <version>29.6.2.31</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>top.theillusivec4.curios</groupId>
+      <artifactId>curios-neoforge</artifactId>
+      <version>15.0.0-beta.2+26.1.2</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>maven.modrinth</groupId>
+      <artifactId>jade</artifactId>
+      <version>26.1.8+neoforge</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>
