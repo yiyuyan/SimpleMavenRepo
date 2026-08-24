@@ -1,0 +1,69 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "cn.ksmcbrigade",
+    "module": "mcmod-doll",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "mcmod-doll-1.0.jar",
+          "url": "mcmod-doll-1.0.jar",
+          "size": 67110,
+          "sha512": "7b80b77e23d89998527ef1e2c6fb5663d8d39427a8975a4c8f47113f285ed4e0e90a46ec58c36d7d7556121138688c5cea2f73d9d5a8f5c095e71dc258eef9b3",
+          "sha256": "89998aa3a9533d525f1497b6e57146b61f27e5888d1288d5b2dfff44af0dbb19",
+          "sha1": "3361816f5e8eb3997db35c3a339e00c94c702bb8",
+          "md5": "2aec1e8daf20126074dbb133b4399fac"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.minecraftforge",
+          "module": "forge",
+          "version": {
+            "requires": "1.20.1-47.4.0_mapped_official_1.20.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mcmod-doll-1.0.jar",
+          "url": "mcmod-doll-1.0.jar",
+          "size": 67110,
+          "sha512": "7b80b77e23d89998527ef1e2c6fb5663d8d39427a8975a4c8f47113f285ed4e0e90a46ec58c36d7d7556121138688c5cea2f73d9d5a8f5c095e71dc258eef9b3",
+          "sha256": "89998aa3a9533d525f1497b6e57146b61f27e5888d1288d5b2dfff44af0dbb19",
+          "sha1": "3361816f5e8eb3997db35c3a339e00c94c702bb8",
+          "md5": "2aec1e8daf20126074dbb133b4399fac"
+        }
+      ]
+    }
+  ]
+}
