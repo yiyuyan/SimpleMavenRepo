@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>net.fabricmc.fabric-loom-repositories</groupId>
+  <artifactId>net.fabricmc.fabric-loom-repositories.gradle.plugin</artifactId>
+  <versioning>
+    <latest>1.17-cm-SNAPSHOT</latest>
+    <release>1.17-cm.local</release>
+    <versions>
+      <version>1.17-cm.local</version>
+      <version>1.17-cm-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20260826132830</lastUpdated>
+  </versioning>
+</metadata>
