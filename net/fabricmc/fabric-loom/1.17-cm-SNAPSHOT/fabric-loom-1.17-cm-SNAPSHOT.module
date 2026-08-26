@@ -29,11 +29,11 @@
         {
           "name": "fabric-loom-1.17-cm-SNAPSHOT.jar",
           "url": "fabric-loom-1.17-cm-SNAPSHOT.jar",
-          "size": 1438537,
-          "sha512": "f2bbee3837f497acbba3c5c5ff99831bb6c28458366a2f55efec61dc08a660ae7221fbbf582638f2bd006e11eddb507e9bab791a589b13270d95223918827d92",
-          "sha256": "fd10f2060b5819caf815e7c855a98985f01c148e9ade7cd5c3e1783cce287f5c",
-          "sha1": "0851ab60cc1f6f6da514562de0d7e64f26c21455",
-          "md5": "9185f4baa9bba2221a3879b7404f2a7a"
+          "size": 1438517,
+          "sha512": "094070ce401ef6d8b5976a375713fc8cb38bb6ae8c6542b4fde13e3814a377686d5c74ffa09d917daeb85d554a0ca3145e034bd2bc2ae2162ebb979e129fce20",
+          "sha256": "e3fe123757a1a5940d95825e7e1e67acd08538d098f5a5d42be4c57d77d4110e",
+          "sha1": "5a7d13a72a7366b11991a369a750205cfb75ece1",
+          "md5": "db5830787726c99ca2c3eb7c82cb7b06"
         }
       ]
     },
@@ -196,11 +196,11 @@
         {
           "name": "fabric-loom-1.17-cm-SNAPSHOT.jar",
           "url": "fabric-loom-1.17-cm-SNAPSHOT.jar",
-          "size": 1438537,
-          "sha512": "f2bbee3837f497acbba3c5c5ff99831bb6c28458366a2f55efec61dc08a660ae7221fbbf582638f2bd006e11eddb507e9bab791a589b13270d95223918827d92",
-          "sha256": "fd10f2060b5819caf815e7c855a98985f01c148e9ade7cd5c3e1783cce287f5c",
-          "sha1": "0851ab60cc1f6f6da514562de0d7e64f26c21455",
-          "md5": "9185f4baa9bba2221a3879b7404f2a7a"
+          "size": 1438517,
+          "sha512": "094070ce401ef6d8b5976a375713fc8cb38bb6ae8c6542b4fde13e3814a377686d5c74ffa09d917daeb85d554a0ca3145e034bd2bc2ae2162ebb979e129fce20",
+          "sha256": "e3fe123757a1a5940d95825e7e1e67acd08538d098f5a5d42be4c57d77d4110e",
+          "sha1": "5a7d13a72a7366b11991a369a750205cfb75ece1",
+          "md5": "db5830787726c99ca2c3eb7c82cb7b06"
         }
       ]
     },
@@ -216,11 +216,11 @@
         {
           "name": "fabric-loom-1.17-cm-SNAPSHOT-sources.jar",
           "url": "fabric-loom-1.17-cm-SNAPSHOT-sources.jar",
-          "size": 857138,
-          "sha512": "77feb8745b837c75e3a6d31020057e47b1429afd4cff24e35c31e61c43e9dd6de04f7352c055f5c0011dd808e81b64dc58505ba2849a17a36216f932398ded3d",
-          "sha256": "7f6c9b4113d6b4e57be826d3960583f9426edb80592ea1b80426732cbd362b38",
-          "sha1": "84eb0fd357ec5e04ee3a70c1c63362723b5cc414",
-          "md5": "7b7b70b6fb3aa0d02224cb49bee86602"
+          "size": 857140,
+          "sha512": "dc28a17767887b8b380934e0b5ccf6e72293e2b32ab97f0ed6e5767fb82dad7300ea7b9f1e33ef6905cd3e65716ce02a8825ed8b84fd975ccd500ae7af7214b4",
+          "sha256": "588a7888d81563da454bd07381b2f3f624d6fe49a94e46cb39f130c00d261ec6",
+          "sha1": "0043cf3764fb8de5cc05fc80d55231276f96b78f",
+          "md5": "8f7179c6a4ba50d8ca330f7a49a6763f"
         }
       ]
     }

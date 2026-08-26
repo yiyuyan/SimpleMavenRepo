@@ -3,7 +3,7 @@
   <groupId>net.fabricmc</groupId>
   <artifactId>fabric-loom</artifactId>
   <versioning>
-    <lastUpdated>20260826132831</lastUpdated>
+    <lastUpdated>20260826134048</lastUpdated>
     <snapshot>
       <localCopy>true</localCopy>
     </snapshot>
@@ -11,23 +11,23 @@
       <snapshotVersion>
         <extension>module</extension>
         <value>1.17-cm-SNAPSHOT</value>
-        <updated>20260826132831</updated>
+        <updated>20260826134048</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>jar</extension>
         <value>1.17-cm-SNAPSHOT</value>
-        <updated>20260826132831</updated>
+        <updated>20260826134048</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
         <value>1.17-cm-SNAPSHOT</value>
-        <updated>20260826132831</updated>
+        <updated>20260826134048</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
         <value>1.17-cm-SNAPSHOT</value>
-        <updated>20260826132831</updated>
+        <updated>20260826134048</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
