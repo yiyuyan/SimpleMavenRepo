@@ -1,8 +1,8 @@
 {
   "formatVersion": "1.1",
   "component": {
-    "group": "ducktech",
-    "module": "pipe_api",
+    "group": "gd.rf.kongzhongtitian",
+    "module": "PipeAPI",
     "version": "1.20.1forge-1.0.0",
     "attributes": {
       "org.gradle.status": "release"
@@ -25,8 +25,8 @@
       },
       "files": [
         {
-          "name": "pipe_api-1.20.1forge-1.0.0.jar",
-          "url": "pipe_api-1.20.1forge-1.0.0.jar",
+          "name": "PipeAPI-1.20.1forge-1.0.0.jar",
+          "url": "PipeAPI-1.20.1forge-1.0.0.jar",
           "size": 17650685,
           "sha512": "30cf0d0c635156099ba0b21052f11c133ba6ec053154de4cdd2de0d617cd70e187dff5c1170ad70efc92d643c5366404ba42b416617191bb4f4f8b45c03fc355",
           "sha256": "c87702d1e244fbe63e4e42c42f525ee8b65077d0db2b75e9a8bc80c746bcc443",
@@ -47,8 +47,8 @@
       "dependencies": [      ],
       "files": [
         {
-          "name": "pipe_api-1.20.1forge-1.0.0.jar",
-          "url": "pipe_api-1.20.1forge-1.0.0.jar,
+          "name": "PipeAPI-1.20.1forge-1.0.0.jar",
+          "url": "PipeAPI-1.20.1forge-1.0.0.jar,
           "size": 17650685,
           "sha512": "30cf0d0c635156099ba0b21052f11c133ba6ec053154de4cdd2de0d617cd70e187dff5c1170ad70efc92d643c5366404ba42b416617191bb4f4f8b45c03fc355",
           "sha256": "c87702d1e244fbe63e4e42c42f525ee8b65077d0db2b75e9a8bc80c746bcc443",
